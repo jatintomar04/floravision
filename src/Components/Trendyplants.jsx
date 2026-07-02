@@ -47,7 +47,7 @@ const TrendyPlants = () => {
 
             {/* Content */}
 
-            <div className="w-full lg:w-1/2 flex flex-col justify-center px-6 sm:px-8  sm:py-10 lg:px-12 md:px-12 pb-10 lg:pb-0 text-center lg:text-left">
+            <div className="w-full lg:w-1/2 flex flex-col justify-center px-6 sm:px-8  sm:py-10 lg:px-12 pb-10 lg:pb-0 text-center lg:text-left">
 
               <h3 className="text-white font-bold text-2xl md:text-3xl lg:text-5xl leading-tight">
                 For Your Desk Decorations
@@ -84,7 +84,7 @@ const TrendyPlants = () => {
 
         <div className="relative pt-20 lg:pt-0">
 
-          <div className="pl-7 relative bg-white/10 backdrop-blur-md border border-white/20 rounded-[40px] sm:rounded-[60px] lg:rounded-[100px] flex flex-col-reverse lg:flex-row items-center overflow-visible">
+          <div className=" relative bg-white/10 backdrop-blur-md border border-white/20 rounded-[40px] sm:rounded-[60px] lg:rounded-[100px] flex flex-col-reverse lg:flex-row items-center overflow-visible">
 
             {/* Content */}
 
@@ -119,21 +119,23 @@ const TrendyPlants = () => {
 
             {/* Plant */}
 
-            <div className="w-full lg:w-1/2 flex flex-col justify-center flex justify-center relative">
+            <div className=" lg:w-1/2 flex flex-col justify-center ">
               <img
                 src={secondPlantImage}
                 alt="Living Room Plant"
+              
                 className="
-                  w-52
-                  sm:w-64
-                  md:w-80
-                  lg:w-[470px]
-                  xl:w-[560px]
-                  object-contain
-                  drop-shadow-2xl
-                  -mt-28
-                  sm:-mt-36
-                  lg:-mt-40
+                w-44
+                sm:w-56
+                md:w-82
+                lg:w-[420px]
+                xl:w-[500px]
+                2xl:w-[560px]
+                object-contain
+                drop-shadow-2xl
+                -mt-20
+                sm:-mt-24                
+                lg:-mt-32
                 "
               />
             </div>

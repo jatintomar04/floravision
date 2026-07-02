@@ -31,7 +31,7 @@ const reviews = [
 
 const CustomerReview = () => {
   return (
-    <section className="w-full bg-[#1B2316] py-20 px-5 lg:px-10">
+    <section className="w-full bg-[#1B2316] py-20 px-16">
       {/* Heading */}
 
       <div className="flex justify-center mb-20">

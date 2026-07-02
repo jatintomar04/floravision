@@ -61,7 +61,7 @@ const plants = [
 
 const TopSellingPlants = () => {
   return (
-    <section className="w-full py-20 px-5 lg:px-10 bg-[#1B2316]">
+    <section className="w-full py-18 px-16  bg-[#1B2316]">
       {/* Heading */}
       <div className="flex justify-center mb-20">
         <div className="rounded-2xl px-8 py-3">
